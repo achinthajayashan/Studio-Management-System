@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studiosystem.controller.AdminFormController">
+   <children>
+      <ImageView fitHeight="1211.0" fitWidth="1917.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../asset/mainform.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="BASELINE_CENTER" layoutX="27.0" layoutY="26.0" prefHeight="1023.0" prefWidth="399.0" style="-fx-background-radius: 20;" styleClass="vbox" stylesheets="@../../../../StyleSheet.css">
+         <effect>
+            <DropShadow radius="18.895" width="56.58" />
+         </effect>
+         <children>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewDashboardOnAction" prefHeight="54.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-dashboard-layout-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewCustomerFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Customer">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-customer-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewItemFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Items">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-gift-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewOrderFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Orders">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-order-history-58.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewBookingsFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Bookings">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-tear-off-calendar-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewPackagesFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Packages">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-packages-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewSupliersFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Supliers">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-supplier-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewEmployeesFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Employees">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-employees-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewSalaryPaymentsFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Salary Payments">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-cash-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewCashDepositsFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Cash Deposits">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-add-money-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="TOP_LEFT" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#viewReportsFormOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" stylesheets="@../../../../StyleSheet.css" text="Reports">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-graph-report-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" focusTraversable="false" graphicTextGap="30.0" lineSpacing="10.0" onAction="#signOutOnAction" prefHeight="64.0" prefWidth="382.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #ff2d55;" stylesheets="@../../../../StyleSheet.css" text="Sign Out">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asset/icons8-logout-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets top="150.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="464.0" layoutY="29.0" prefHeight="60.0" prefWidth="1428.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-background-color: #FFFFFF;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label fx:id="lblTime" alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="11.0" text="Date and Time">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/icons8-filled-circle-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="1358.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/icons8-filled-circle-50.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="mainContext" layoutX="469.0" layoutY="126.0" prefHeight="919.0" prefWidth="1419.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label layoutX="1200.0" layoutY="638.0" text="3" textFill="#ffa300">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="105.0" layoutX="714.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="325.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="105.0" layoutX="1055.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="325.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="105.0" layoutX="725.0" layoutY="475.0" stroke="BLACK" strokeType="INSIDE" width="325.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="105.0" layoutX="1065.0" layoutY="475.0" stroke="BLACK" strokeType="INSIDE" width="325.0" />
+            <Label layoutX="781.0" layoutY="69.0" text="CUSTOMERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="1170.0" layoutY="69.0" text="ITEMS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="825.0" layoutY="504.0" text="ORDERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="1146.0" layoutY="504.0" text="SUPPLIERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Circle layoutX="877.0" layoutY="271.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="lblCusCount" layoutX="849.0" layoutY="201.0" text="3" textFill="#ffa300">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Label>
+            <Circle layoutX="1218.0" layoutY="272.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="lblItemCount" layoutX="1190.0" layoutY="202.0" text="3" textFill="#ffa300">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Label>
+            <Circle layoutX="888.0" layoutY="706.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="lblOrderCount" layoutX="860.0" layoutY="636.0" text="3" textFill="#ffa300">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Label>
+            <Circle layoutX="1228.0" layoutY="708.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="lblSuplierCount" layoutX="1200.0" layoutY="635.0" text="3" textFill="#ffa300">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="598.0" fitWidth="432.0" layoutX="125.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/bgjhj.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

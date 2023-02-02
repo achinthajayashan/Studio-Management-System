@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ItemAddContext" prefHeight="593.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #FFA300; -fx-border-width: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studiosystem.controller.AddItemFormController">
+    <children>
+        <JFXTextField fx:id="txtItemId" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="48.0" prefHeight="25.0" prefWidth="273.0" promptText="Item ID">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </JFXTextField>
+        <JFXTextField fx:id="txtItemName" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="141.0" prefHeight="25.0" prefWidth="273.0" promptText="Item Name">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </JFXTextField>
+        <JFXTextField fx:id="txtUnitPrice" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="228.0" prefHeight="25.0" prefWidth="273.0" promptText="Unit Price">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </JFXTextField>
+        <JFXButton buttonType="RAISED" layoutX="63.0" layoutY="500.0" onAction="#addOnAction" prefHeight="48.0" prefWidth="351.0" style="-fx-background-color: FFA300; -fx-background-radius: 20;" text="Add" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+        <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/icons8-gift-100.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/icons8-autograph-64.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/icons8-price-tag-usd-50.png" />
+            </image>
+        </ImageView>
+      <JFXTextField fx:id="txtQtyOnHnd" focusColor="#ffa300" labelFloat="true" layoutX="141.0" layoutY="321.0" prefHeight="25.0" prefWidth="273.0" promptText="qty On Hand">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="63.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-price-tag-usd-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="63.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-price-tag-usd-50.png" />
+         </image>
+      </ImageView>
+      <JFXComboBox fx:id="cmbSuplierId" focusColor="#ffa300" layoutX="140.0" layoutY="424.0" prefHeight="44.0" prefWidth="273.0" promptText="Supplier ID" />
+    </children>
+</AnchorPane>

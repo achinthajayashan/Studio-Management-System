@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CustomerUpdateContext" prefHeight="644.0" prefWidth="500.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #FFA300; -fx-border-width: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studiosystem.controller.UpdateCustomerForm">
+   <children>
+      <JFXTextField fx:id="txtCusId" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="48.0" onAction="#loadCustomerDetailsOnAction" prefHeight="25.0" prefWidth="273.0" promptText="Customer ID">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtCusName" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="141.0" prefHeight="25.0" prefWidth="273.0" promptText="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtCusAddress" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="228.0" prefHeight="25.0" prefWidth="273.0" promptText="Address">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtCusContact" focusColor="#ffa300" labelFloat="true" layoutX="140.0" layoutY="327.0" prefHeight="25.0" prefWidth="273.0" promptText="Contact">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="63.0" layoutY="504.0" onAction="#updateOnAction" prefHeight="48.0" prefWidth="351.0" style="-fx-background-color: #1abc9c; -fx-background-radius: 20;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-identity-theft-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-customer-50%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-home-page-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="62.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-ringer-volume-50.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="txtCusEmail" focusColor="#ffa300" labelFloat="true" layoutX="141.0" layoutY="429.0" prefHeight="25.0" prefWidth="273.0" promptText="Email">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="57.0" fitWidth="61.0" layoutX="63.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-mail-50.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="63.0" layoutY="563.0" onAction="#deleteOnAction" prefHeight="48.0" prefWidth="351.0" style="-fx-background-color: #ff2d55; -fx-background-radius: 20;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>
